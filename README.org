@@ -1,0 +1,4 @@
+* This is an example org mode file.
+When you export it as HTML, it's cool.
+
+* The end.
