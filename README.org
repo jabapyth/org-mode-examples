@@ -1,4 +1,32 @@
+#+AUTHOR: Nathan Neff
+#+EMAIL:  nathan.neff@gmail.com
+
 * This is an example org mode file.
 When you export it as HTML, it's cool.
 
+* Ditaa is cool.
+** Source
+: #+begin_ditaa mydiagram.png -r -S
+:  +--------+   	 	  +--------+
+:  | Someth |   <-------------->  |anotherh|
+:  | ing    |       		  |    	   |
+:  |        |	 		  +--------+
+:  |        |
+:  +--------+
+: #+end_ditaa
+:
+** Output
+#+begin_ditaa mydiagram.png -r -S
+  +--------+   	 		  +--------+
+  | Someth |   <-------------->	  |anotherh|
+  | ing    |       		  |    	   |
+  |        |	 		  +--------+
+  |    {d} |   	       		       
+  +--------+	       	       	      
+       	       	       	              
+
+
+#+end_ditaa
+
 * The end.
+
